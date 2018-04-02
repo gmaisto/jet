@@ -246,8 +246,8 @@ func (l *lexer) run() {
 }
 
 const (
-	leftDelim    = "{{"
-	rightDelim   = "}}"
+	leftDelim    = "{%"
+	rightDelim   = "%}"
 	leftComment  = "{*"
 	rightComment = "*}"
 )
